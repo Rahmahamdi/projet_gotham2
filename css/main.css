@@ -13,7 +13,7 @@ text-rendering : optimizeLegibility;
 }
 h1, h2, h3 {
 font-family : 'Comic Neue', cursive;
-font-weight : 401;
+font-weight : 400;
 text-transform : capitalize;
 }
 h1, h2, h3, h4, p,  ol, figure {
