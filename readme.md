@@ -10,4 +10,4 @@ Viens en découvrir plus sur cette ville !
 * Géographie
 * Démographie
 
-[cliquez sur le lien](https://rahmahamdi.github.io/)
+[cliquez sur le lien](https://rahmahamdi.github.io/projet_gotham2/)
