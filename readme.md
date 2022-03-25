@@ -5,9 +5,9 @@ Comme l'a dit  Robert De Niro, "Je vais à Paris, je vais à Londres, je vais à
 
 Viens découvrir plus sur cette ville !
 
-[cliquez sur le lien](https://rahmahamdi.github.io/)
-
 ### Sommaire
 * Histoire
 * Géographie
 * Démographie
+
+[cliquez sur le lien](https://rahmahamdi.github.io/)
