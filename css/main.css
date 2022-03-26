@@ -61,7 +61,6 @@ header {
    background: linear-gradient(to right, #805465, #ffffff,#e4612e, #eedd44);
     -webkit-background-clip: text;
     position: sticky;
-    position: -webkit-sticky;
     top: 0;
     z-index: 1;
 }
@@ -98,7 +97,6 @@ section{
 footer {
 text-align : center;
 }
-
 
 
 
