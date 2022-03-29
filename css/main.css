@@ -3,7 +3,7 @@
 html {
 font-size : 62.5%;
 scroll-behavior : smooth;
-background : url(../asset/image.jpg) center center / cover no-repeat fixed;
+background : url(../asset/batman-gotham-city-arkham-knight-1.jpg) center center / cover no-repeat fixed;
 }
 body {
 font : 1.6rem sans-serif;
@@ -26,24 +26,27 @@ box-sizing : border-box;
 }
 img {
 display : inline-block;
-height : 100%;
-border-radius : 50%;
-width : 430px;
-margin : 5rem;
+height : 60%;
+border-radius: 100%;
+width : 25rem;
+margin :auto;
+margin-bottom: auto;
 }
 
-ol{
-    text-decoration: underline;
+nav.main-menu li{
+    display: inline-block;
+    width: calc(100% / 3);
 }
+
 /*theme*/
 a {
 text-decoration : none;
 color : #222;
 }
 :root {
---color-primary : #3D3C3C;
---color-secondary : #8E8D8D;
---color-complementary : #403F3F;
+--color-primary : #645c5c;
+--color-secondary : #9b9797;
+--color-complementary : #504c4c;
 --color-last : #3C3737;
 --color-header : #ECE6EA;
 }
@@ -78,7 +81,7 @@ color : rgb(0, 0, 0);
 padding : 2rem;
 background-color: #fff;
 z-index: 1;
-background-color:darkgrey ;
+background-color:rgb(108, 121, 118) ;
 
 }
 
@@ -92,12 +95,47 @@ border-radius : 50%;
 }
 section{
     padding: 2rem;
-    background-color:#8E8D8D
+    background-color:#789691
 }
 
 footer {
 text-align : center;
 }
+/* responsive */
+@media screen and (max-width: 100.0rem){
+    section p{
+        text-align: justify;
+    }
+    nav .main-menu li{
+        display: block;
+        width: auto;
+    }
+    nav .main-menu li:not(li:last-child){
+        border-right: 0;
+    }
+    nav .main-menu li a{
+        text-align: left;
+        color: #fff;
 
+    }
+    nav .main-menu li{
+        background-color: var(--color-primary);
+        padding: .5rem;
+        margin-bottom: .1rem;
+    }
+    header h1{
+        text-shadow: none;
+    }
+    header h1::before,section h2:before, nav h2:before{
+        content: '';
+    }
+    section h2, nav h2{
+        padding: 0 0 0 .1rem;
+        font-size: 2.5rem;
+        text-shadow: none;
+    }
+}
+
+   
 
 
