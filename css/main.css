@@ -1,7 +1,7 @@
 /*reset*/
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&display=swap') ;
 html {
-font-size : 60.5%;
+font-size : 62.5%;
 scroll-behavior : smooth;
 background : url(../asset/image.jpg) center center / cover no-repeat fixed;
 }
